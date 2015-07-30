@@ -3,9 +3,11 @@
     -moz-border-radius: 5px;
     -webkit-border-radius: 5px;
     border-radius: 5px;
-    padding: 25px;
+    padding: 10% 25px;
     text-align: center;
-    font: 20pt bold 'Vollkorn';
+    font-family: 'Vollkorn';
+	font-size:48pt;
+	font-weight: bold;
     color: #bbb;
     
 }
@@ -39,4 +41,8 @@
 }
 .renderjson .array.syntax  {
     color: orange; 
+}
+
+html, body {
+	height: 100%;
 }
